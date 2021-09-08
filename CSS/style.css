@@ -1,0 +1,173 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h2, h1, h3, h4, h5, h6 {
+    font-family: "Montserrat-bold";
+    font-weight: bolder;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Heading-Section */
+
+.title-heading {
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.pricing-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.cta-heading {
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section */
+.colored-section {
+    background-color: #AC8DAF;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+/* Navigation Bar  */
+.navbar {
+    padding-bottom: 3.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-nav {
+    position: absolute;
+    right: 0;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: "Montserrat-Light";
+}
+
+/* Download Button  */
+
+.download-button {
+    margin: 5% 0 5% 0;
+}
+
+/* Title-Image */
+
+.iphone {
+    height: 500px;
+    width: 250px;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Feature Section */
+
+#features {
+    padding: 4% 15%;
+    position: relative;
+}
+.feature-section {
+    font-size: 1.5rem;
+}
+
+/* Icon */
+
+.icon {
+    color: #DDB6C6;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #AC8DAF;
+}
+.col-lg-4 {
+    padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #DDB6C6;
+}
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 10px
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #DDB6C6;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 5px 20px 30px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 70px;
+}
+.card-p {
+    font-size: 80%;
+    color: #000;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Call To Action Section */
+
+#cta {
+    padding: 7% 15%;
+}
+
+/* Footer Section  */
+
+#footer {
+    padding: 4% 15%;
+}
+.icon1 {
+    margin: 20px 10px;
+}
+
+/* Media Query Breakpoint */
+
+@media (max-width:995px) {
+    #title {
+        text-align: center;
+    }
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+}
