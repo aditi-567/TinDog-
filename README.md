@@ -1,3 +1,4 @@
 # TinDog-
 
- https://aditi-567.github.io/TinDog-/
+https://aditisinghchauhan.github.io/TinDog-/
+ 
